@@ -26,6 +26,7 @@ class MaxStack {
   // We use two Stacks, one to store all the values
   // The other to store just our max values
   constructor() {
+    super(); // super has to be called before 'this' can be used
     this.stack = new Stack();
     this.maxValues = new Stack();
   }
